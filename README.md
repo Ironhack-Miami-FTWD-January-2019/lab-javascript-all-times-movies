@@ -32,7 +32,7 @@ In the Pull request name, add your campus, name and last names separated by a da
 
 ### Starter code
 
-The `data.js` contains an array of 250 movies, each of them with all the info you will need about the movies to finish the iterations. Here you can see an example of how the data is display:
+The `src/data.js` contains an array of 250 movies, each of them with all the info you will need about the movies to finish the iterations. Here you can see an example of how the data is display:
 
 ```javascript=
 {
@@ -53,7 +53,11 @@ All the files that compose the project, including the HTML, and JavaScript.
 
 Let's start working on the solutions. We recommend to finish each iteration before moving to the next. And be careful to manipulate the `array` **movies**, you will need it for every iteration.
 
-You have to work on the `movies.js` file.
+You have to work on the `src/movies.js` file.
+
+### Tests
+
+Ohh yes! We have our beloved tests, and you already know how this works. Open the `SpecRunner.html` file on your browser and start coding to pass the test. Remember to focus on one test at a time and read really carefully the instructions to understand what you have to do.
 
 ### Iteration 1: Time Format
 
@@ -88,11 +92,14 @@ Should be:
   "rate":"9.3"
 }
 ```
-
+ 
+You must return a new array with all the info about the movie, not modify the original array!
 
 ### Iteration 2: All rates average
 
 These are the best movies based on their rates, so supposedly all of them have an awesome rate. In this iteration, we want to know the average rate of all of them and display it on the console.
+
+The rate must be returned rounded to 2 decimals!
 
 **:bulb: Maybe you want to *"reduce"* the data to a single value :wink:**
 
@@ -102,6 +109,8 @@ Drama is the genre that repeats the most on our `array`, apparently, people love
 
 **Let's get the average rate of all drama movies! Let's see if it is better than the general average.**
 
+Again, rounded to 2 decimals!
+
 **Print on the console the result!**
 
 ### Iteration 4: Ordering by the duration
@@ -110,12 +119,13 @@ Now we will use the info we manipulate on **Iteration 1**. We need to sort in as
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_3db351079827c0acba42cf1e397dd8a3.gif)
 
+If two movies have the same duration, order them in alphabeticall order by their title!
 
 ### Iteration 5: Steven Spielberg. The best?
 
 One of the most famous directors in cinema is **[Steven Spielberg](https://en.wikipedia.org/wiki/Steven_Spielberg)**, and he has some really awesome movies that show up on our list, but we want to know how many!
 
-Go ahead and `filter` :eyes: the array so we can have only the movies where **Steven Spielberg** is the director.
+Go ahead and `filter` :eyes: the array so we can have only the **drama** movies where **Steven Spielberg** is the director. 
 
 
 ### Iteration 6: Alphabetic Order
