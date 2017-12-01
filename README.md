@@ -67,7 +67,7 @@ Finding the longest movie is almost impossible using that format, so let's chang
 
 **:bulb: Remember we have a methods o create a new array from another one!**
 
-- Replace the duration info of each of the movies for it equivalent in minutes. For example:
+- Create a `turnHoursToMinutes` method that receive an array as parameter, replace the duration info of each of the movies for it equivalent in minutes. For example:
 
 ```javascript=
 {
@@ -97,7 +97,7 @@ You must return a new array with all the info about the movie, not modify the or
 
 ### Iteration 2: All rates average
 
-These are the best movies based on their rates, so supposedly all of them have an awesome rate. In this iteration, we want to know the average rate of all of them and display it on the console.
+These are the best movies based on their rates, so supposedly all of them have an awesome rate. In this iteration, we want to know the average rate of all of them and display it on the console. Create a `ratesAverage` method that receive an array as a parameter and solve the challenge.
 
 The rate must be returned rounded to 2 decimals!
 
@@ -107,7 +107,7 @@ The rate must be returned rounded to 2 decimals!
 
 Drama is the genre that repeats the most on our `array`, apparently, people love drama! :eyes: 
 
-**Let's get the average rate of all drama movies! Let's see if it is better than the general average.**
+**Create a `dramaMoviesRate` that receive an array as a parameter to get the average rate of all drama movies! Let's see if it is better than the general average.**
 
 Again, rounded to 2 decimals!
 
@@ -115,7 +115,7 @@ Again, rounded to 2 decimals!
 
 ### Iteration 4: Ordering by the duration
 
-Now we will use the info we manipulate on **Iteration 1**. We need to sort in ascending order. This should be easy using one of the **methods** we just learn.
+We need to sort the movies in ascending order by their duration. This should be easy using one of the **methods** we just learn. Create a method `orderByDuration` that receives an array as parameter and return the sorted array.
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_3db351079827c0acba42cf1e397dd8a3.gif)
 
@@ -123,14 +123,16 @@ If two movies have the same duration, order them in alphabeticall order by their
 
 ### Iteration 5: Steven Spielberg. The best?
 
-One of the most famous directors in cinema is **[Steven Spielberg](https://en.wikipedia.org/wiki/Steven_Spielberg)**, and he has some really awesome movies that show up on our list, but we want to know how many!
+One of the most famous directors in cinema is **[Steven Spielberg](https://en.wikipedia.org/wiki/Steven_Spielberg)**, and he has some really awesome drama movies that show up on our list, but we want to know how many!
 
-Go ahead and `filter` :eyes: the array so we can have only the **drama** movies where **Steven Spielberg** is the director. 
+Go ahead and create a `howManyMovies` method that receives an array as a parameter and `filter` :eyes: the array so we can have only the **drama** movies where **Steven Spielberg** is the director. 
 
 
 ### Iteration 6: Alphabetic Order
 
 Another famous way to order the movies is to sort them alphabetically using the `title` key. But in this case we only need to print the title of the first 20. Easy Peasy for an expert like you :wink:
+
+Create a `orderAlphabetically` method, that receive an array and return an array of first 20 titles, alphabetically ordered. Return only the title of each movie, and if the array you receive have less than 20 movies, return all of them order
 
 ### BONUS Iteration: Best yearly rate average 
 
