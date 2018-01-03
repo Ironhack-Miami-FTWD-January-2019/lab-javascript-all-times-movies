@@ -209,7 +209,7 @@ var movies = [
   },
   {
     title: 'Léon',
-    year: 'Léon',
+    year: '1988',
     director: 'Luc Besson',
     duration: '1h 50min',
     genre: ['Crime', 'Drama', 'Thriller'],
@@ -369,7 +369,7 @@ var movies = [
   },
   {
     title: 'The Prestige',
-    year: 'El prestigio',
+    year: '1994',
     director: 'Christopher Nolan',
     duration: '2h 10min',
     genre: ['Drama', 'Mystery', 'Sci-Fi', 'Thriller'],
@@ -577,7 +577,7 @@ var movies = [
   },
   {
     title: 'Vertigo',
-    year: 'De entre los muertos',
+    year: '2001',
     director: 'Alfred Hitchcock',
     duration: '2h 8min',
     genre: ['Mystery', 'Romance', 'Thriller'],
@@ -1081,7 +1081,7 @@ var movies = [
   },
   {
     title: 'Inside Out',
-    year: 'Inside Out',
+    year: '2014',
     director: 'Pete Docter',
     duration: '1h 35min',
     genre: ['Animation', 'Adventure', 'Comedy', 'Drama', 'Family', 'Fantasy'],
@@ -1297,7 +1297,7 @@ var movies = [
   },
   {
     title: 'The Thing',
-    year: 'El enigma de otro mundo',
+    year: '2004',
     director: 'John Carpenter',
     duration: '1h 49min',
     genre: ['Horror', 'Mystery', 'Sci-Fi'],
@@ -1385,7 +1385,7 @@ var movies = [
   },
   {
     title: 'Idi i smotri',
-    year: 'ven y mira',
+    year: '1992',
     director: 'Elem Klimov',
     duration: '2h 22min',
     genre: ['Drama', 'War'],
@@ -1609,7 +1609,7 @@ var movies = [
   },
   {
     title: 'Jurassic Park',
-    year: 'Parque Jurásico',
+    year: '2000',
     director: 'Steven Spielberg',
     duration: '2h 7min',
     genre: ['Adventure', 'Sci-Fi', 'Thriller'],
@@ -1657,7 +1657,7 @@ var movies = [
   },
   {
     title: 'The Truman Show',
-    year: 'Una vida en directo',
+    year: '1990',
     director: 'Peter Weir',
     duration: '1h 43min',
     genre: ['Comedy', 'Drama', 'Sci-Fi'],
@@ -1665,7 +1665,7 @@ var movies = [
   },
   {
     title: 'Hachi: A Dog\'s Tale',
-    year: 'Hachiko',
+    year: '1983',
     director: 'Lasse Hallström',
     duration: '1h 33min',
     genre: ['Drama', 'Family'],
